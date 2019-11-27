@@ -13,5 +13,3 @@ examples/**/package-lock.json
 # Editor files
 .idea/
 .vscode/
-
-dist/
