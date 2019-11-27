@@ -72,7 +72,7 @@ export class BaseActionWatcher {
       this.log.error(err)
       this.error = err
       this.log.info('Indexing unexpectedly stopped due to an error.')
-      return
+      await this.watch(false)
     }
 
     const endTime = Date.now()
